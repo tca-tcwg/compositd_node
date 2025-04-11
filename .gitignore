@@ -1,0 +1,9 @@
+snp-gpu-node/bin/*
+snp-gpu-node/information/*
+!snp-gpu-node/information/sample_attestation.json
+!snp-gpu-node/information/sample_register.json
+!snp-gpu-node/information/network_config.json
+gpu-node/bin/*
+!gpu-node/bin/start.sh
+gpu-node/tpm/*.pub
+gpu-node/config/measurement-list

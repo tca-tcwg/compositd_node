@@ -1,0 +1,50 @@
+{
+    "ak_cert" : {
+        "tpm" : {
+            "ak_cert" : "...",
+            "ak_cert_size" : 0
+        },
+        "snp" : {
+            "ak_cert" : "...",
+            "ak_cert_size" : 0
+        }
+    },
+    "ak_pubkey" : {
+        "tpm" : {
+            "x_point": "43ad660963c7ce9c72c4c8f6714bbae6aa1badd24f64994b41c59bec4902b883",
+            "x_size": 64,
+            "y_point": "3606ae41f2cb7f7edfdf3b4af34b66ad107d4c1466d910221a2710210287b64d",
+            "y_size": 64
+        },
+        "snp" : {
+            "x_point": "43ad660963c7ce9c72c4c8f6714bbae6aa1badd24f64994b41c59bec4902b883",
+            "x_size": 64,
+            "y_point": "3606ae41f2cb7f7edfdf3b4af34b66ad107d4c1466d910221a2710210287b64d",
+            "y_size": 64            
+        }
+    },
+    "evidence": {
+        "tpm": {
+            "file-hash": {
+                "measurement": [
+                    {
+                        "hash": "d82d44b06b0cf7f4177191e5f057a21c222d099f6de7794940dbb57157ee9cfb",
+                        "name": "/usr/local/cuda/version.json",
+                        "size": "2.87K",
+                        "type": "config file"
+                    }
+                    ],
+                "time-stamp": "2024.12.26 13:52:19",
+                "total_hash": "d93308f6d07a418366427bb73ba3ab0257b0de7b5833d2ea726c88c522005d77"
+            },
+            "quote" : "...",
+            "quote_size": 2366
+        },
+        "snp" : {
+            "quote" : "",
+            "quote_size": 0
+        }
+    },
+    "type" : 7,
+    "uuid" : "1ba48d25-eac8-461d-b23d-65f5f3df7293"
+}
